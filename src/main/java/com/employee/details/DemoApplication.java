@@ -14,9 +14,11 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/hello")
-	public String empDetails() {		
+	public String empDetails() {	
 		
-		return " Employee name is Tomer and Salary is 70000";
+		int data=2000;
+		
+		return " Employee name is Tomer and Salary is 70000"+data;
 		
 	}
 
