@@ -13,6 +13,10 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 	
+	public void  add(){
+		System.out.println("Method");
+	}
+	
 	@GetMapping("/hello")
 	public String empDetails() {	
 		
