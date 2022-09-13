@@ -16,9 +16,9 @@ public class DemoApplication {
 	@GetMapping("/hello")
 	public String empDetails() {	
 		
-		int data=2000;
 		
-		return " Employee name is Tomer and Salary is 70000"+data;
+		
+		return " Employee name is Tomer and Salary is 70000"+Constant.DATA_TYPE;
 		
 	}
 
